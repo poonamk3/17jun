@@ -79,7 +79,7 @@ DATABASES = {
         'NAME': 'today',
         'USER': 'postgres',
         'PASSWORD': 'psql',
-        'HOST': 'db',  # This will be the hostname of the PostgreSQL container
+        'HOST': 'localhost',  # This will be the hostname of the PostgreSQL container
         'PORT': 5432,  # Default PostgreSQL port
     }
 }
